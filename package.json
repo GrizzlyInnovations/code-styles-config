@@ -1,0 +1,16 @@
+{
+  "name": "@grizzlyinnovations/eslint-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrizzlyInnovations/code-styles-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrizzlyInnovations/code-styles-config/issues"
+  },
+  "homepage": "https://github.com/GrizzlyInnovations/code-styles-config#readme"
+}
