@@ -8,7 +8,8 @@ module.exports = {
         ".circleci",
         ".nyc_output",
         "webpack.config.js",
-        "cdk.out"
+        "cdk.out",
+        ".eslintrs.js"
     ],
     "env": {
         "browser": true,
