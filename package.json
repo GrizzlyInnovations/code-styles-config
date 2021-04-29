@@ -12,5 +12,11 @@
   "bugs": {
     "url": "https://github.com/GrizzlyInnovations/code-styles-config/issues"
   },
-  "homepage": "https://github.com/GrizzlyInnovations/code-styles-config#readme"
+  "homepage": "https://github.com/GrizzlyInnovations/code-styles-config#readme",
+  "scripts": {
+    "release": "npm version patch && npm publish"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
 }
