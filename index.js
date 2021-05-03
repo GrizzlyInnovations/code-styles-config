@@ -314,10 +314,7 @@ module.exports = {
                     "minProperties": 2,
                     "consistent": true
                 },
-                "ImportDeclaration": {
-                    "minProperties": 2,
-                    "multiline": true,
-                }
+                "ImportDeclaration": "always"
             }
         ],
         "object-curly-spacing": [
