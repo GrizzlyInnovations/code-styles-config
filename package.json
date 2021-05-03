@@ -17,7 +17,8 @@
     "release": "npm version patch && npm publish"
   },
   "peerDependencies": {
+    "@typescript-eslint/parser": "^4.22.0",
     "eslint": ">= 3",
-    "@typescript-eslint/parser": "^4.22.0"
+    "eslint-plugin-modules-newline": "^0.0.6"
   }
 }
