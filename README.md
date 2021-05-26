@@ -1,1 +1,1 @@
-# code-styles-config
+# eslint-config
