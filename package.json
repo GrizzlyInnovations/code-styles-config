@@ -3,16 +3,8 @@
   "version": "0.0.8",
   "description": "",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GrizzlyInnovations/code-styles-config.git"
-  },
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GrizzlyInnovations/code-styles-config/issues"
-  },
-  "homepage": "https://github.com/GrizzlyInnovations/code-styles-config#readme",
+  "private": false,
   "scripts": {
     "release": "npm version patch && npm publish"
   },
