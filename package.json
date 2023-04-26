@@ -9,9 +9,7 @@
     "lib/index.js"
   ],
   "scripts": {
-    "clean": "rm -rf dist",
-    "build": "npm run clean && tsc",
-    "release": "npm run build && npm version patch && npm publish"
+    "release": "npm version patch && npm publish"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.58.0",
