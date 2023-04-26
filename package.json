@@ -9,6 +9,7 @@
     "lib/index.js"
   ],
   "scripts": {
+    "test": "eslint --fix .",
     "release": "npm version patch && npm publish"
   },
   "dependencies": {
@@ -16,17 +17,15 @@
     "@typescript-eslint/parser": "^5.58.0",
     "eslint-plugin-ban": "^1.6.0",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-import-newlines": "^1.3.1",
     "eslint-plugin-jsdoc": "^41.1.1",
-    "eslint-plugin-modules-newline": "^0.0.6",
     "eslint-plugin-no-null": "^1.0.2",
     "eslint-plugin-prefer-arrow": "^1.2.3",
-    "eslint-plugin-unused-imports": "^2.0.0"
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "@tsconfig/recommended": "^1.0.2",
+    "eslint-plugin-import-newlines": "^1.3.1",
+    "eslint-plugin-modules-newline": "^0.0.6"
   },
   "peerDependencies": {
     "eslint": "^7.0.0 || ^8.0.0"
-  },
-  "devDependencies": {
-    "@tsconfig/recommended": "^1.0.2"
   }
 }
