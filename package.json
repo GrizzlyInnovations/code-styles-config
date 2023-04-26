@@ -1,6 +1,6 @@
 {
   "name": "@grizzlyinnovations/eslint-config",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Standard reusable config for eslint.",
   "main": "lib/index.js",
   "license": "ISC",
